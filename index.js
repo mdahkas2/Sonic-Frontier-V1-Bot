@@ -84,7 +84,7 @@ function parseEnvArray(envVar) {
   const randomAddresses = generateRandomAddresses(100)
   console.log('Generated 100 random addresses:', randomAddresses)
 
-  const amountToSend = 0.001
+  const amountToSend = 0.0001
   let currentKeypairIndex = 0
 
   for (const address of randomAddresses) {
